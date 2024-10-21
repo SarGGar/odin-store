@@ -1,0 +1,59 @@
+.navbar {
+    composes: secondaryBg secondaryColor from '../colors.module.css';
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px 0px;
+
+    border: 0px;
+    margin: 0px;
+    height: 30vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: min(7.5vw, 100px);
+    display: flex;
+    align-items: center;
+}
+
+.alllinks {
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+}
+
+.individual {
+    background-color: #8d6346;
+
+
+}
+
+.individual:hover {
+    cursor: pointer;
+    background-color: #add9f4;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    max-height: 100%;
+}
+
+.link {
+    color: #e0ca3c;
+    text-decoration: none;
+    font-size: 2.5vw;
+    padding: 5px 15px;
+
+}
+
+.link:hover {
+    color: #0c1b33;
+}
+
+
+
